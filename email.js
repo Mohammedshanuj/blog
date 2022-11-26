@@ -7,8 +7,7 @@ const sendEmail=async (options)=>{
     const mailTransporter=nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'mohammed.shanuj@emvigotech.com',
-            pass: '2491emvigo'
+          
         }
     })
 
